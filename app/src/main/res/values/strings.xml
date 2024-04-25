@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="default_web_client_id">177121564141-hvg61no4f4emes6tretqloso442rhoq9.apps.googleusercontent.com</string>
+
+</resources>

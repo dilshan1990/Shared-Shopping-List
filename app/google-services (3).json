@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177121564141",
+    "firebase_url": "https://shoppinglist-1f72a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "shoppinglist-1f72a",
+    "storage_bucket": "shoppinglist-1f72a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177121564141:android:376a2338d8b3d7fcd8c3e4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177121564141-ilun17e0bodesa4bcetjkrqar1ntn4ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "ed00796e518f75b47f6038cad5b0c17073de50fd"
+          }
+        },
+        {
+          "client_id": "177121564141-hvg61no4f4emes6tretqloso442rhoq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGgw98cMZKYdcXo31Lhv5SE41war3rhrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177121564141-hvg61no4f4emes6tretqloso442rhoq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

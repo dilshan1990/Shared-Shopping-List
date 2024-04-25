@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/itemQuantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty"
+        android:textSize="16sp"
+        android:textColor="#000000"
+    android:background="#FDD835"
+    android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/itemQuantityTextView"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:textColor="#FFEB3B"
+    android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/deleteItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:tint="#FFEB3B"
+    android:layout_alignParentEnd="true"/>
+
+    <View
+        android:id="@+id/underlineView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFEB3B"
+    android:layout_below="@id/itemNameTextView"
+    android:layout_marginTop="4dp"/>
+
+</RelativeLayout>
